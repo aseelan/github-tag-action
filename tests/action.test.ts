@@ -309,7 +309,7 @@ describe('github-tag-action', () => {
       const commits = [
         {
           message:
-            'my commit message\nBREAKING CHANGE:\nthis is a breaking change',
+            'my commit message\nMAJOR RELEASE:\nthis is a MAJOR RELEASE',
           hash: null,
         },
       ];
@@ -612,7 +612,7 @@ describe('github-tag-action', () => {
       const commits = [
         {
           message:
-            'my commit message\nBREAKING CHANGE:\nthis is a breaking change',
+            'my commit message\nMAJOR RELEASE:\nthis is a MAJOR RELEASE',
           hash: null,
         },
       ];
@@ -839,7 +839,7 @@ describe('github-tag-action', () => {
       const commits = [
         {
           message:
-            'my commit message\nBREAKING CHANGE:\nthis is a breaking change',
+            'my commit message\nMAJOR RELEASE:\nthis is a MAJOR RELEASE',
           hash: null,
         },
       ];
