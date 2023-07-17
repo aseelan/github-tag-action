@@ -190,7 +190,7 @@ describe('utils', () => {
        * Given
        */
       const customReleasesString =
-        'james:preminor,bond:premajor,007:major:Breaking Changes,feat:minor';
+        'james:preminor,bond:premajor,007:major:MAJOR RELEASE,feat:minor';
 
       /*
        * When
@@ -203,7 +203,7 @@ describe('utils', () => {
       expect(mappedReleases).toEqual([
         { type: 'james', release: 'preminor' },
         { type: 'bond', release: 'premajor' },
-        { type: '007', release: 'major', section: 'Breaking Changes' },
+        { type: '007', release: 'major', section: 'MAJOR RELEASE' },
         {
           type: 'feat',
           release: 'minor',
